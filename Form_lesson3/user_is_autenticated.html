@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h2>Предположем что реистрация прошла успешно</h2>
+        <form>
+            <fieldset>
+                <br>
+                <legend>Форма для зополнения данных пользователя</legend>
+                <p><u>Личные данние</u></p>
+
+                <label for="firs_name">Имя:</label>
+                <input type="text" name="first_name" required/>
+
+                <label for="last_name">Фамилия:</label>
+                <input type="text" name="last_name" required/>
+
+                <label for="patronym">Отчество:</label>
+                <input type="text" name="patronym" required/>
+
+                <br>
+                <br>
+                <label for="sex">Пол:</label>
+                <input type="radio" id="sex" name="sex" value="male"/> Муж.
+                <input type="radio" id="sex" name="sex" value="female"/>Жен.
+                <p>
+                    <label for="age"> Возраст </label>
+                    <input type="number" name="age"/>
+                    <label for="birth_day">Дата рождения</label>
+                    <input type="date" name="birth_day"/>
+                </p>
+                
+
+
+                <label for="contact_data"> Тел.</label>
+                <input type="tel" name="contact_data" required/>
+
+                <label for="email"> Эл. почта</label>
+                <input type="email" name="email" required/>
+                <br><br>
+
+                <label for="contries_group"> Страна</label>
+                
+                <select>
+                    <optgroup>
+                        <option>Албания</option>
+                        <option selected>Армения</option>
+                        <option>Австрия</option>
+                        <option>Бельгия</option>
+                        <option>Босния и Герцеговина</option>
+                        <option>Болгария</option>
+                        <option>Хорватия</option>
+                        <option>Кипр</option>
+                        <option>Андорра</option>
+                        <option>Чешская Республика</option>
+                        <option>Дания</option>
+                        <option>Эстония</option>
+                        <option>Финляндия</option>
+                        <option>Франция</option>
+                        <option>Грузия</option>
+                        <option>Германия</option>
+                        <option>Греция</option>
+                        <option>Венгрия</option>
+                        <option>Исландия</option>
+                        <option>Ирландия</option>
+                        <option>Италия</option>
+                        <option>Латвия</option>
+                        <option>Лихтенштейн</option>
+                    </optgroup>
+                </select>
+                <label for="city">Город</label>
+                <input type="text" name="city"/>
+                <label for="address">Адрес</label>
+                <input type="text" name="address"/>
+
+                <p>
+                    Семейное положение <br>
+                    <label for="marital_status">Женат/замужем</label>
+                    <input type="checkbox" name="marital_status"/>
+                    <label for="marital_status">Разведен(а)</label>
+                    <input type="checkbox" name="marital_status"/>
+                    <label for="marital_status">Холост/не замужем</label>
+                    <input type="checkbox" name="marital_status"/>
+
+                </p>      
+                <p>
+                    Образование 
+                    <label for="institute">Образовательное учреждение</label>
+                    <input type="text" name="instute"/>
+
+                </p>  
+                <label for="work">Вы работаете</label>
+                <input type="radio" name="work"/>Да
+                <input type="radio" name="work"/>Нет
+
+            </fieldset> 
+
+            <h2>Спасибо за участие в опросе</h2>
+            <button type="submit" formaction="home_page.html">Отправить</button>
+        </form>        
+    </body>
+</html>
