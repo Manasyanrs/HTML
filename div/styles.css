@@ -1,0 +1,120 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    margin: 0px auto;
+    margin-left: 2%;
+    font-size: 250%;
+    background-image: url(./images/logo.png);
+}
+
+
+.nav {
+    display: inline-block;
+    width: 86%;
+}
+
+.nav_url {
+    display: inline;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+
+.button {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.blog_info {
+    width: 75%;
+    margin-left: 8%;
+}
+
+.blog_text {
+    width: 100%;
+
+}
+
+
+.text_h1 {
+    width: 100%;
+    margin: 0 0px;
+    text-align: center;
+    font-size: 56px;
+
+}
+
+
+.midle_text {
+    font-size: x-large;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.button_width_us {
+    width: 80%;
+    margin-left: 37%;
+}
+
+.button_width_us_parametrs {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.blog_images {
+    width: 70%;
+    display: inline-block;
+    margin: 0 15% 0 15%;
+}
+
+.cont_hed {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.image_body_1 {
+    display: inline-block;
+    width: 23%;
+}
+
+.image_body_2 {
+    display: inline-block;
+    width: 48%;
+}
+
+.image_body_3 {
+    display: inline-block;
+    width: 100%;
+}
+
+.load_image {
+    display: inline;
+    width: 50%;
+}
